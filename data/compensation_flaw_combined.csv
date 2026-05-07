@@ -1,0 +1,37 @@
+game,category,sentiment,flaw_pct
+God of War,story,Positive Reviews,80.72
+God of War,story,Negative Reviews,73.53
+God of War,characters,Positive Reviews,52.32
+God of War,characters,Negative Reviews,48.53
+God of War,emotion,Positive Reviews,34.94
+God of War,emotion,Negative Reviews,39.71
+God of War,immersion,Positive Reviews,31.33
+God of War,immersion,Negative Reviews,25
+God of War,writing,Positive Reviews,7.75
+God of War,writing,Negative Reviews,8.82
+God of War,ending,Positive Reviews,2.41
+God of War,ending,Negative Reviews,1.47
+RDR2,story,Positive Reviews,72.39
+RDR2,story,Negative Reviews,51.28
+RDR2,immersion,Positive Reviews,54.6
+RDR2,immersion,Negative Reviews,46.15
+RDR2,characters,Positive Reviews,53.37
+RDR2,characters,Negative Reviews,51.28
+RDR2,emotion,Positive Reviews,44.17
+RDR2,emotion,Negative Reviews,25.64
+RDR2,ending,Positive Reviews,14.11
+RDR2,ending,Negative Reviews,10.26
+RDR2,writing,Positive Reviews,11.66
+RDR2,writing,Negative Reviews,10.26
+The Witcher 3,story,Positive Reviews,81.04
+The Witcher 3,story,Negative Reviews,56.25
+The Witcher 3,characters,Positive Reviews,45.65
+The Witcher 3,characters,Negative Reviews,29.17
+The Witcher 3,immersion,Positive Reviews,18.57
+The Witcher 3,immersion,Negative Reviews,4.17
+The Witcher 3,writing,Positive Reviews,17.02
+The Witcher 3,writing,Negative Reviews,12.5
+The Witcher 3,emotion,Positive Reviews,11.03
+The Witcher 3,emotion,Negative Reviews,2.08
+The Witcher 3,ending,Positive Reviews,8.51
+The Witcher 3,ending,Negative Reviews,2.08
