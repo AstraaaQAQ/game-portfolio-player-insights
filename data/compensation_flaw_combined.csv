@@ -1,37 +1,31 @@
-game,category,sentiment,flaw_pct
-God of War,story,Positive Reviews,80.72
-God of War,story,Negative Reviews,73.53
-God of War,characters,Positive Reviews,52.32
-God of War,characters,Negative Reviews,48.53
-God of War,emotion,Positive Reviews,34.94
-God of War,emotion,Negative Reviews,39.71
-God of War,immersion,Positive Reviews,31.33
-God of War,immersion,Negative Reviews,25
-God of War,writing,Positive Reviews,7.75
-God of War,writing,Negative Reviews,8.82
-God of War,ending,Positive Reviews,2.41
-God of War,ending,Negative Reviews,1.47
-RDR2,story,Positive Reviews,72.39
-RDR2,story,Negative Reviews,51.28
-RDR2,immersion,Positive Reviews,54.6
-RDR2,immersion,Negative Reviews,46.15
-RDR2,characters,Positive Reviews,53.37
-RDR2,characters,Negative Reviews,51.28
-RDR2,emotion,Positive Reviews,44.17
-RDR2,emotion,Negative Reviews,25.64
-RDR2,ending,Positive Reviews,14.11
-RDR2,ending,Negative Reviews,10.26
-RDR2,writing,Positive Reviews,11.66
-RDR2,writing,Negative Reviews,10.26
-The Witcher 3,story,Positive Reviews,81.04
-The Witcher 3,story,Negative Reviews,56.25
-The Witcher 3,characters,Positive Reviews,45.65
-The Witcher 3,characters,Negative Reviews,29.17
-The Witcher 3,immersion,Positive Reviews,18.57
-The Witcher 3,immersion,Negative Reviews,4.17
-The Witcher 3,writing,Positive Reviews,17.02
-The Witcher 3,writing,Negative Reviews,12.5
-The Witcher 3,emotion,Positive Reviews,11.03
-The Witcher 3,emotion,Negative Reviews,2.08
-The Witcher 3,ending,Positive Reviews,8.51
-The Witcher 3,ending,Negative Reviews,2.08
+﻿game,category,sentiment,flaw_pct
+God of War,Story & Quest Engagement,Positive Reviews,78.53
+God of War,Story & Quest Engagement,Negative Reviews,59.67
+God of War,Character & Relationship Attachment,Positive Reviews,46.23
+God of War,Character & Relationship Attachment,Negative Reviews,37.04
+God of War,World & Genre Immersion,Positive Reviews,41.91
+God of War,World & Genre Immersion,Negative Reviews,34.16
+God of War,Emotional Payoff,Positive Reviews,16.32
+God of War,Emotional Payoff,Negative Reviews,10.29
+God of War,Theme & Meaning,Positive Reviews,12.19
+God of War,Theme & Meaning,Negative Reviews,12.76
+RDR2,Story & Quest Engagement,Positive Reviews,72.26
+RDR2,Story & Quest Engagement,Negative Reviews,54.76
+RDR2,Character & Relationship Attachment,Positive Reviews,43.32
+RDR2,Character & Relationship Attachment,Negative Reviews,30.56
+RDR2,World & Genre Immersion,Positive Reviews,55.68
+RDR2,World & Genre Immersion,Negative Reviews,45.24
+RDR2,Emotional Payoff,Positive Reviews,26.63
+RDR2,Emotional Payoff,Negative Reviews,5.95
+RDR2,Theme & Meaning,Positive Reviews,32.96
+RDR2,Theme & Meaning,Negative Reviews,15.87
+The Witcher 3,Story & Quest Engagement,Positive Reviews,80.2
+The Witcher 3,Story & Quest Engagement,Negative Reviews,59.49
+The Witcher 3,Character & Relationship Attachment,Positive Reviews,45.27
+The Witcher 3,Character & Relationship Attachment,Negative Reviews,34.36
+The Witcher 3,World & Genre Immersion,Positive Reviews,66.38
+The Witcher 3,World & Genre Immersion,Negative Reviews,51.28
+The Witcher 3,Emotional Payoff,Positive Reviews,16.81
+The Witcher 3,Emotional Payoff,Negative Reviews,6.67
+The Witcher 3,Theme & Meaning,Positive Reviews,32.19
+The Witcher 3,Theme & Meaning,Negative Reviews,15.9

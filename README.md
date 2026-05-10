@@ -29,7 +29,7 @@ Key question:
 Main outputs:
 
 - Power BI PDF walkthrough: `dashboards/Narrative as a Satisfaction Buffer.pdf`
-- Python notebooks: `notebooks/*sentiment_analysis.ipynb`
+- Python notebooks and rebuild script: `notebooks/*sentiment_analysis.ipynb`, `scripts/rebuild_case2_narrative_assets.py`
 - Aggregated narrative and compensation tables: `data/narrative_*.csv`, `data/compensation_flaw_combined.csv`
 
 ### 3. Narrative Design Demo: The Mine and The Moon

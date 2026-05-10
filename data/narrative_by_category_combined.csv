@@ -1,19 +1,16 @@
-category,positive_count,negative_count,game,total,positive_rate
-story,662,59,God of War,721,91.82
-characters,407,38,God of War,445,91.46
-ending,21,1,God of War,22,95.45
-writing,54,6,God of War,60,90
-immersion,114,2,God of War,116,98.28
-emotion,110,6,God of War,116,94.83
-story,391,32,RDR2,423,92.43
-characters,254,26,RDR2,280,90.71
-ending,59,8,RDR2,67,88.06
-writing,36,6,RDR2,42,85.71
-immersion,231,20,RDR2,251,92.03
-emotion,184,13,RDR2,197,93.4
-story,749,39,The Witcher 3,788,95.05
-characters,417,22,The Witcher 3,439,94.99
-ending,76,3,The Witcher 3,79,96.2
-writing,122,11,The Witcher 3,133,91.73
-immersion,499,19,The Witcher 3,518,96.33
-emotion,312,11,The Witcher 3,323,96.59
+﻿category,positive_count,negative_count,game,total,positive_rate,mention_rate
+Story & Quest Engagement,2970,188,God of War,3158,94.05,63.16
+Character & Relationship Attachment,1659,113,God of War,1772,93.62,35.44
+World & Genre Immersion,1329,101,God of War,1430,92.94,28.6
+Emotional Payoff,471,29,God of War,500,94.2,10.0
+Theme & Meaning,369,37,God of War,406,90.89,8.12
+Story & Quest Engagement,2407,241,RDR2,2648,90.9,52.96
+Character & Relationship Attachment,1253,107,RDR2,1360,92.13,27.2
+World & Genre Immersion,1635,182,RDR2,1817,89.98,36.34
+Emotional Payoff,664,18,RDR2,682,97.36,13.64
+Theme & Meaning,772,61,RDR2,833,92.68,16.66
+Story & Quest Engagement,2756,141,The Witcher 3,2897,95.13,57.94
+Character & Relationship Attachment,1467,86,The Witcher 3,1553,94.46,31.06
+World & Genre Immersion,2589,122,The Witcher 3,2711,95.5,54.22
+Emotional Payoff,433,13,The Witcher 3,446,97.09,8.92
+Theme & Meaning,917,44,The Witcher 3,961,95.42,19.22
