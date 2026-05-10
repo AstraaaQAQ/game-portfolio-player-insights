@@ -1,6 +1,6 @@
 # Game Portfolio: Player Insights and Narrative Design
 
-This repository contains selected public-facing materials from my game portfolio. It combines player sentiment analysis, Power BI dashboard walkthroughs, and branching narrative design documentation.
+This repository contains selected public-facing materials from my game portfolio. It combines player sentiment analysis, Power BI dashboard walkthroughs, playable Twine prototypes, and branching narrative design documentation.
 
 ## Projects
 
@@ -38,8 +38,10 @@ A branching narrative design demo adapted from my original fiction and worldbuil
 
 Main outputs:
 
-- Main route flowchart: `narrative/主线流程图.png`
-- Side route flowchart: `narrative/支线流程图.png`
+- Main route playable prototype: [The Mine - Main Route Twine Prototype](https://astraaaqaq.itch.io/the-mine)
+- Side route playable prototype: [The Moon - Side Route Twine Prototype](https://astraaaqaq.itch.io/the-moon)
+- Main route flowchart: `narrative/Main-Route-Flowchart.png`
+- Side route flowchart: `narrative/Side-Route-Flowchart.png`
 
 ## Analysis Pipeline
 
@@ -47,7 +49,7 @@ Steam reviews -> cleaning and filtering -> sentiment proxy from recommendation l
 
 ## Public Data Note
 
-This repository intentionally includes only code, aggregated tables, dashboard PDFs, and selected design artifacts. Raw review datasets are excluded from the public repository to keep the portfolio clean and avoid republishing large volumes of user-generated review text.
+This repository intentionally includes only code, aggregated tables, dashboard PDFs, playable prototype links, and selected design artifacts. Raw review datasets are excluded from the public repository to keep the portfolio clean and avoid republishing large volumes of user-generated review text.
 
 Full interactive Power BI dashboards are available upon request.
 
@@ -57,5 +59,5 @@ Full interactive Power BI dashboards are available upon request.
 - Power BI
 - Steam review data
 - Keyword and phrase-based theme tagging
+- Twine
 - Notion portfolio writing
-
