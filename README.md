@@ -4,19 +4,19 @@ This repository contains selected public-facing materials from my game portfolio
 
 ## Projects
 
-### 1. Live-Service Sentiment Diagnostics
+### 1. Steam Review Diagnostics by Playtime Stage
 
-Steam review analysis of Apex Legends, Icarus, and Path of Exile, focused on where different live-service games lose player trust across the player lifecycle.
+Steam review analysis of Apex Legends, Icarus, and Path of Exile, focused on how public player feedback changes across playtime stages. This case highlights early friction, entry into system depth, and later-stage trust concerns around competitive and support experiences.
 
 Key question:
 
-> How do different live-service games lose player trust at different stages of the player lifecycle?
+> How do player complaint themes and recommendation patterns differ across playtime stages?
 
 Main outputs:
 
-- Power BI PDF walkthrough: `dashboards/Live-Service Sentiment Diagnostics.pdf`
+- Power BI PDF walkthrough: `dashboards/Steam Review Diagnostics by Playtime Stage.pdf`
 - Python notebooks: `notebooks/*retention_analysis.ipynb`
-- Aggregated lifecycle and theme tables: `data/lifecycle_risk_map_pct.csv`, `data/complaint_portfolio_matrix.csv`
+- Aggregated playtime-stage and theme tables: `data/lifecycle_risk_map_pct.csv`, `data/complaint_portfolio_matrix.csv`
 
 ### 2. Narrative as a Satisfaction Buffer
 

@@ -4,10 +4,10 @@ This folder contains selected aggregate tables used by the dashboard walkthrough
 
 Raw review-level datasets are not included in this public portfolio repository.
 
-## Live-Service Sentiment Diagnostics
+## Steam Review Diagnostics by Playtime Stage
 
 - `lifecycle_risk_map_pct.csv`: negative review rate by game and playtime group. Values are stored as rates, so `0.5966` means `59.66%`.
-- `complaint_portfolio_matrix.csv`: positive and negative theme counts for the live-service case.
+- `complaint_portfolio_matrix.csv`: positive and negative theme counts for the playtime-stage review analysis case.
 
 ## Narrative as a Satisfaction Buffer
 
