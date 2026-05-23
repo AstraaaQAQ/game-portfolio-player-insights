@@ -1,0 +1,31 @@
+﻿game,playtime_group,playtime_sort,theme,theme_display,negative_review_count,theme_negative_count,mention_rate_pct
+Path of Exile,0-10h,0,Onboarding_Complexity,Onboarding / Complexity,36,4,11.11
+Path of Exile,0-10h,0,Server_League_Technical,Server / League / Technical,36,8,22.22
+Path of Exile,0-10h,0,Trade_Loot_UI,Trade / Loot / UI,36,4,11.11
+Path of Exile,0-10h,0,Build_Endgame_Depth,Build / Endgame Depth,36,6,16.67
+Path of Exile,0-10h,0,Monetisation_Content,Monetisation / Content,36,2,5.56
+Path of Exile,10-50h,1,Onboarding_Complexity,Onboarding / Complexity,18,4,22.22
+Path of Exile,10-50h,1,Server_League_Technical,Server / League / Technical,18,2,11.11
+Path of Exile,10-50h,1,Trade_Loot_UI,Trade / Loot / UI,18,1,5.56
+Path of Exile,10-50h,1,Build_Endgame_Depth,Build / Endgame Depth,18,4,22.22
+Path of Exile,10-50h,1,Monetisation_Content,Monetisation / Content,18,1,5.56
+Path of Exile,50-100h,2,Onboarding_Complexity,Onboarding / Complexity,15,4,26.67
+Path of Exile,50-100h,2,Server_League_Technical,Server / League / Technical,15,5,33.33
+Path of Exile,50-100h,2,Trade_Loot_UI,Trade / Loot / UI,15,2,13.33
+Path of Exile,50-100h,2,Build_Endgame_Depth,Build / Endgame Depth,15,5,33.33
+Path of Exile,50-100h,2,Monetisation_Content,Monetisation / Content,15,2,13.33
+Path of Exile,100-300h,3,Onboarding_Complexity,Onboarding / Complexity,28,2,7.14
+Path of Exile,100-300h,3,Server_League_Technical,Server / League / Technical,28,5,17.86
+Path of Exile,100-300h,3,Trade_Loot_UI,Trade / Loot / UI,28,4,14.29
+Path of Exile,100-300h,3,Build_Endgame_Depth,Build / Endgame Depth,28,6,21.43
+Path of Exile,100-300h,3,Monetisation_Content,Monetisation / Content,28,7,25.0
+Path of Exile,300-1000h,4,Onboarding_Complexity,Onboarding / Complexity,51,9,17.65
+Path of Exile,300-1000h,4,Server_League_Technical,Server / League / Technical,51,19,37.25
+Path of Exile,300-1000h,4,Trade_Loot_UI,Trade / Loot / UI,51,8,15.69
+Path of Exile,300-1000h,4,Build_Endgame_Depth,Build / Endgame Depth,51,15,29.41
+Path of Exile,300-1000h,4,Monetisation_Content,Monetisation / Content,51,5,9.8
+Path of Exile,1000h+,5,Onboarding_Complexity,Onboarding / Complexity,108,5,4.63
+Path of Exile,1000h+,5,Server_League_Technical,Server / League / Technical,108,45,41.67
+Path of Exile,1000h+,5,Trade_Loot_UI,Trade / Loot / UI,108,20,18.52
+Path of Exile,1000h+,5,Build_Endgame_Depth,Build / Endgame Depth,108,22,20.37
+Path of Exile,1000h+,5,Monetisation_Content,Monetisation / Content,108,13,12.04

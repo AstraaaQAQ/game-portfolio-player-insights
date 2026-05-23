@@ -1,0 +1,6 @@
+game,theme,theme_display,peak_stage,peak_rate_pct,average_rate_pct,active_stage_count,pattern
+Icarus,Onboarding,Onboarding,1000h+,33.33,17.68,5,Persistent / Veteran-Heavy
+Icarus,Technical,Technical Stability,300-1000h,58.82,34.23,6,Persistent / Veteran-Heavy
+Icarus,Survival_Systems,Survival Systems,1000h+,66.67,52.0,6,Persistent / Veteran-Heavy
+Icarus,Economy_Content,Economy / Content,1000h+,100.0,54.39,6,Persistent / Veteran-Heavy
+Icarus,Value_DLC,DLC / Value Trust,50-100h,50.0,36.64,6,Persistent Pain Point

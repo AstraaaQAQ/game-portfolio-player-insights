@@ -7,7 +7,10 @@ Raw review-level datasets are not included in this public portfolio repository.
 ## Steam Review Diagnostics by Playtime Stage
 
 - `lifecycle_risk_map_pct.csv`: negative review rate by game and playtime group. Values are stored as rates, so `0.5966` means `59.66%`.
-- `complaint_portfolio_matrix.csv`: positive and negative theme counts for the playtime-stage review analysis case.
+- `apex_theme_by_playtime.csv`, `icarus_theme_by_playtime.csv`, `poe_theme_by_playtime.csv`: negative theme mention rates by playtime stage.
+- `apex_theme_pattern_summary.csv`, `icarus_theme_pattern_summary.csv`, `poe_theme_pattern_summary.csv`: peak-stage and persistence summaries for negative themes.
+- `apex_attachment_vs_friction_signals.csv`, `icarus_attachment_vs_friction_signals.csv`, `poe_attachment_vs_friction_signals.csv`: stayed-positive versus negative theme mention rates used to separate attachment drivers, contested high-importance themes, friction drivers, and secondary signals.
+- `complaint_portfolio_matrix.csv`: earlier positive and negative theme-count matrix kept for audit/reference.
 
 ## Narrative as a Satisfaction Buffer
 

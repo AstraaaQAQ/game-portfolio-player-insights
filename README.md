@@ -6,17 +6,21 @@ This repository contains selected public-facing materials from my game portfolio
 
 ### 1. Steam Review Diagnostics by Playtime Stage
 
-Steam review analysis of Apex Legends, Icarus, and Path of Exile, focused on how public player feedback changes across playtime stages. This case highlights early friction, entry into system depth, and later-stage trust concerns around competitive and support experiences.
+Steam review analysis of Apex Legends, Icarus, and Path of Exile, focused on how public player feedback changes across playtime stages and what keeps players attached despite friction. This case highlights early friction, entry into system depth, later-stage trust concerns, and the difference between attachment drivers and friction signals.
 
-Key question:
+Key questions:
 
-> How do player complaint themes and recommendation patterns differ across playtime stages?
+> Where does negative sentiment appear by playtime stage?
+>
+> Which complaint themes persist or intensify over time?
+>
+> What keeps stayed-positive players attached despite friction?
 
 Main outputs:
 
 - Power BI PDF walkthrough: `dashboards/Steam Review Diagnostics by Playtime Stage.pdf`
 - Python notebooks: `notebooks/*retention_analysis.ipynb`
-- Aggregated playtime-stage and theme tables: `data/lifecycle_risk_map_pct.csv`, `data/complaint_portfolio_matrix.csv`
+- Aggregated playtime-stage, theme, and attachment/friction tables: `data/lifecycle_risk_map_pct.csv`, `data/*_theme_by_playtime.csv`, `data/*_theme_pattern_summary.csv`, `data/*_attachment_vs_friction_signals.csv`
 
 ### 2. Narrative as a Satisfaction Buffer
 

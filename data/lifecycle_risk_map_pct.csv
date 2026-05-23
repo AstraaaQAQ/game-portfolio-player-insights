@@ -1,19 +1,19 @@
-game,playtime_group,sort_order,review_count,negative_rate
-Apex Legends,0-10h,1,128,0.5468999999999999
-Apex Legends,10-50h,2,293,0.2696
-Apex Legends,50-100h,3,178,0.2191
-Apex Legends,100-300h,4,313,0.2907
-Apex Legends,300-1000h,5,284,0.4225
-Apex Legends,1000h+,6,190,0.4316
+﻿game,playtime_group,sort_order,review_count,negative_rate
+Apex Legends,0-10h,1,128,0.4565
+Apex Legends,10-50h,2,293,0.2190
+Apex Legends,50-100h,3,178,0.2901
+Apex Legends,100-300h,4,313,0.2876
+Apex Legends,300-1000h,5,284,0.3684
+Apex Legends,1000h+,6,190,0.5
 Icarus,0-10h,1,119,0.5966
 Icarus,10-50h,2,275,0.2364
 Icarus,50-100h,3,272,0.1949
 Icarus,100-300h,4,487,0.1109
-Icarus,300-1000h,5,255,0.15289999999999998
-Icarus,1000h+,6,37,0.16219999999999998
-Path of Exile,0-10h,1,78,0.4103
-Path of Exile,10-50h,2,125,0.14400000000000002
-Path of Exile,50-100h,3,102,0.1373
-Path of Exile,100-300h,4,198,0.1414
-Path of Exile,300-1000h,5,314,0.1783
-Path of Exile,1000h+,6,677,0.1891
+Icarus,300-1000h,5,255,0.1529
+Icarus,1000h+,6,37,0.1622
+Path of Exile,0-10h,1,78,0.4091
+Path of Exile,10-50h,2,125,0.1429
+Path of Exile,50-100h,3,102,0.1389
+Path of Exile,100-300h,4,198,0.1366
+Path of Exile,300-1000h,5,314,0.1661
+Path of Exile,1000h+,6,677,0.1631
