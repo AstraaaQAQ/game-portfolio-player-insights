@@ -46,7 +46,7 @@ Main outputs:
 
 ### 3. Narrative Design Demo: The Mine and The Moon
 
-A branching narrative design demo adapted from my original fiction and worldbuilding project. It explores choice, class conflict, evidence, resistance, and love under unequal power. The main route asks whether truth becomes political leverage, public ignition, or solidarity with the people most harmed by the system.
+A branching narrative design demo adapted from my original fiction and worldbuilding project. It explores choice, class conflict, evidence, resistance, and love under unequal power. The main route asks whether truth becomes political leverage, public ignition, or solidarity with the people most harmed by the system. The side route explores love as protection, release, or rebellion through Mara and Elian's relationship.
 
 Main outputs:
 
