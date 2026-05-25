@@ -568,20 +568,6 @@ The story ends before it can become ordinary.
 
 Both bodies are left under a sky Elian was never supposed to touch.
 
-### ENDING C — One Eternal Moment
-
-Mara takes Elian and runs.
-
-No contract. No permission. No clever bargain dressed up as sacrifice.
-
-For one night, love becomes motion.
-
-By dawn, Noelle's people find them on the Plains.
-
-The story ends before it can become ordinary.
-
-Both bodies are left under a sky Elian was never supposed to touch.
-
 [[Epilogue: Sedes returns->EpilogueC]]
 
 ### EpilogueA
