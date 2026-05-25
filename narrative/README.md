@@ -14,4 +14,8 @@ The main route, **The Mine**, follows Sedes Westly through a mining disaster whe
 - `main-route-flowchart.png`
 - `side-route-flowchart.png`
 
+## Full Demo Text
+
+- `demo-text.md`
+
 The playable Twine builds are hosted on itch.io so they can be opened directly in a browser. The flowcharts in this repository document the branch structure, route logic, and ending design for portfolio review.

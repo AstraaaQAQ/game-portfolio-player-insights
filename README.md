@@ -54,6 +54,7 @@ Main outputs:
 - Side route playable prototype: [The Moon - Side Route Twine Prototype](https://astraaaqaq.itch.io/the-moon)
 - Main route flowchart: `narrative/main-route-flowchart.png`
 - Side route flowchart: `narrative/side-route-flowchart.png`
+- Full demo text: `narrative/demo-text.md`
 - Narrative artifact notes: `narrative/README.md`
 
 ## Analysis Pipeline
