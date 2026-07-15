@@ -420,7 +420,7 @@ Instead, he finds Mara at the dinner table with a girl who looks like she was pl
 
 Elian.
 
-Noelle's adopted daughter. Noelle's public miracle. Noelle's carefully trained answer to a public-relations crisis.
+Noelle's adopted daughter. The Tower's most anticipated pre-debut idol. Noelle's public miracle. Noelle's carefully trained answer to a public-relations crisis.
 
 Officially, Elian is staying outside the Tower for her own safety, until the noise dies down. Unofficially, Noelle needed somewhere safe, unofficial, and far from cameras.
 
