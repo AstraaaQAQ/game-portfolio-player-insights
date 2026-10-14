@@ -1,31 +1,31 @@
-game,playtime_group,playtime_sort,theme,theme_display,negative_reviews,theme_mentions,mention_rate,mention_rate_pct
-Icarus,0-10h,1,Onboarding,Onboarding,85,14,0.16470588235294117,16.470588235294116
-Icarus,0-10h,1,Technical,Technical Stability,85,17,0.2,20.0
-Icarus,0-10h,1,Survival_Systems,Survival Systems,85,39,0.4588235294117647,45.88235294117647
-Icarus,0-10h,1,Economy_Content,Economy / Content,85,28,0.32941176470588235,32.94117647058823
-Icarus,0-10h,1,Value_DLC,DLC / Value Trust,85,21,0.24705882352941178,24.705882352941178
-Icarus,10-50h,2,Onboarding,Onboarding,63,3,0.047619047619047616,4.761904761904762
-Icarus,10-50h,2,Technical,Technical Stability,63,8,0.12698412698412698,12.698412698412698
-Icarus,10-50h,2,Survival_Systems,Survival Systems,63,28,0.4444444444444444,44.44444444444444
-Icarus,10-50h,2,Economy_Content,Economy / Content,63,26,0.4126984126984127,41.269841269841265
-Icarus,10-50h,2,Value_DLC,DLC / Value Trust,63,21,0.3333333333333333,33.33333333333333
-Icarus,50-100h,3,Onboarding,Onboarding,46,7,0.15217391304347827,15.217391304347828
-Icarus,50-100h,3,Technical,Technical Stability,46,16,0.34782608695652173,34.78260869565217
-Icarus,50-100h,3,Survival_Systems,Survival Systems,46,23,0.5,50.0
-Icarus,50-100h,3,Economy_Content,Economy / Content,46,25,0.5434782608695652,54.347826086956516
-Icarus,50-100h,3,Value_DLC,DLC / Value Trust,46,23,0.5,50.0
-Icarus,100-300h,4,Onboarding,Onboarding,59,11,0.1864406779661017,18.64406779661017
-Icarus,100-300h,4,Technical,Technical Stability,59,27,0.4576271186440678,45.76271186440678
-Icarus,100-300h,4,Survival_Systems,Survival Systems,59,29,0.4915254237288136,49.152542372881356
-Icarus,100-300h,4,Economy_Content,Economy / Content,59,23,0.3898305084745763,38.983050847457626
-Icarus,100-300h,4,Value_DLC,DLC / Value Trust,59,22,0.3728813559322034,37.28813559322034
-Icarus,300-1000h,5,Onboarding,Onboarding,34,6,0.17647058823529413,17.647058823529413
-Icarus,300-1000h,5,Technical,Technical Stability,34,20,0.5882352941176471,58.82352941176471
-Icarus,300-1000h,5,Survival_Systems,Survival Systems,34,19,0.5588235294117647,55.88235294117647
-Icarus,300-1000h,5,Economy_Content,Economy / Content,34,20,0.5882352941176471,58.82352941176471
-Icarus,300-1000h,5,Value_DLC,DLC / Value Trust,34,14,0.4117647058823529,41.17647058823529
-Icarus,1000h+,6,Onboarding,Onboarding,3,1,0.3333333333333333,33.33333333333333
-Icarus,1000h+,6,Technical,Technical Stability,3,1,0.3333333333333333,33.33333333333333
-Icarus,1000h+,6,Survival_Systems,Survival Systems,3,2,0.6666666666666666,66.66666666666666
-Icarus,1000h+,6,Economy_Content,Economy / Content,3,3,1.0,100.0
-Icarus,1000h+,6,Value_DLC,DLC / Value Trust,3,1,0.3333333333333333,33.33333333333333
+game,playtime_group,sort_order,playtime_sort,theme,theme_display,negative_reviews,theme_mentions,mention_rate,mention_rate_pct,negative_review_count,theme_negative_count
+Icarus,0-10h,1,1,Onboarding,Onboarding,71,4,0.056338028169014086,5.633802816901409,71,4
+Icarus,0-10h,1,1,Technical,Technical,71,8,0.11267605633802817,11.267605633802818,71,8
+Icarus,0-10h,1,1,Survival_Systems,Survival / Systems,71,21,0.29577464788732394,29.577464788732392,71,21
+Icarus,0-10h,1,1,Economy_Content,Economy / Content,71,21,0.29577464788732394,29.577464788732392,71,21
+Icarus,0-10h,1,1,Value_DLC,Value / DLC,71,18,0.2535211267605634,25.352112676056336,71,18
+Icarus,10-50h,2,2,Onboarding,Onboarding,65,1,0.015384615384615385,1.5384615384615385,65,1
+Icarus,10-50h,2,2,Technical,Technical,65,9,0.13846153846153847,13.846153846153847,65,9
+Icarus,10-50h,2,2,Survival_Systems,Survival / Systems,65,19,0.2923076923076923,29.230769230769234,65,19
+Icarus,10-50h,2,2,Economy_Content,Economy / Content,65,18,0.27692307692307694,27.692307692307693,65,18
+Icarus,10-50h,2,2,Value_DLC,Value / DLC,65,22,0.3384615384615385,33.84615384615385,65,22
+Icarus,50-100h,3,3,Onboarding,Onboarding,53,0,0.0,0.0,53,0
+Icarus,50-100h,3,3,Technical,Technical,53,12,0.22641509433962265,22.641509433962266,53,12
+Icarus,50-100h,3,3,Survival_Systems,Survival / Systems,53,26,0.49056603773584906,49.056603773584904,53,26
+Icarus,50-100h,3,3,Economy_Content,Economy / Content,53,19,0.3584905660377358,35.84905660377358,53,19
+Icarus,50-100h,3,3,Value_DLC,Value / DLC,53,22,0.41509433962264153,41.509433962264154,53,22
+Icarus,100-300h,4,4,Onboarding,Onboarding,54,0,0.0,0.0,54,0
+Icarus,100-300h,4,4,Technical,Technical,54,17,0.3148148148148148,31.48148148148148,54,17
+Icarus,100-300h,4,4,Survival_Systems,Survival / Systems,54,22,0.4074074074074074,40.74074074074074,54,22
+Icarus,100-300h,4,4,Economy_Content,Economy / Content,54,25,0.46296296296296297,46.2962962962963,54,25
+Icarus,100-300h,4,4,Value_DLC,Value / DLC,54,21,0.3888888888888889,38.88888888888889,54,21
+Icarus,300-1000h,5,5,Onboarding,Onboarding,39,1,0.02564102564102564,2.564102564102564,39,1
+Icarus,300-1000h,5,5,Technical,Technical,39,21,0.5384615384615384,53.84615384615385,39,21
+Icarus,300-1000h,5,5,Survival_Systems,Survival / Systems,39,18,0.46153846153846156,46.15384615384615,39,18
+Icarus,300-1000h,5,5,Economy_Content,Economy / Content,39,16,0.41025641025641024,41.02564102564102,39,16
+Icarus,300-1000h,5,5,Value_DLC,Value / DLC,39,20,0.5128205128205128,51.28205128205128,39,20
+Icarus,1000h+,6,6,Onboarding,Onboarding,6,0,0.0,0.0,6,0
+Icarus,1000h+,6,6,Technical,Technical,6,4,0.6666666666666666,66.66666666666666,6,4
+Icarus,1000h+,6,6,Survival_Systems,Survival / Systems,6,2,0.3333333333333333,33.33333333333333,6,2
+Icarus,1000h+,6,6,Economy_Content,Economy / Content,6,4,0.6666666666666666,66.66666666666666,6,4
+Icarus,1000h+,6,6,Value_DLC,Value / DLC,6,3,0.5,50.0,6,3

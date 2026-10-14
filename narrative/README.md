@@ -13,11 +13,11 @@ The side route, **The Moon**, focuses on emotional choice design, asking whether
 
 ## Flowcharts
 
-- `main-route-flowchart.png`
-- `side-route-flowchart.png`
+- [Main-route flowchart](main-route-flowchart.png)
+- [Side-route flowchart](side-route-flowchart.png)
 
 ## Full Demo Text
 
-- `demo-text.md`
+- [Full design text](demo-text.md)
 
 The playable Twine builds are hosted on itch.io so they can be opened directly in a browser. The flowcharts in this repository document the branch structure, route logic, and ending design for portfolio review.

@@ -1,31 +1,31 @@
-game,playtime_group,theme,negative_reviews,theme_mentions,mention_rate,mention_rate_pct,sort_order
-Apex Legends,0-10h,Economy_Content,50,3,0.06,6.0,1
-Apex Legends,10-50h,Economy_Content,64,3,0.046875,4.6875,2
-Apex Legends,50-100h,Economy_Content,46,5,0.10869565217391304,10.869565217391305,3
-Apex Legends,100-300h,Economy_Content,89,10,0.11235955056179775,11.235955056179774,4
-Apex Legends,300-1000h,Economy_Content,115,20,0.17391304347826086,17.391304347826086,5
-Apex Legends,1000h+,Economy_Content,107,15,0.14018691588785046,14.018691588785046,6
-Apex Legends,0-10h,Onboarding,50,0,0.0,0.0,1
-Apex Legends,10-50h,Onboarding,64,4,0.0625,6.25,2
-Apex Legends,50-100h,Onboarding,46,1,0.021739130434782608,2.1739130434782608,3
-Apex Legends,100-300h,Onboarding,89,2,0.02247191011235955,2.247191011235955,4
-Apex Legends,300-1000h,Onboarding,115,6,0.05217391304347826,5.217391304347826,5
-Apex Legends,1000h+,Onboarding,107,5,0.04672897196261682,4.672897196261682,6
-Apex Legends,0-10h,Systems,50,10,0.2,20.0,1
-Apex Legends,10-50h,Systems,64,17,0.265625,26.5625,2
-Apex Legends,50-100h,Systems,46,11,0.2391304347826087,23.91304347826087,3
-Apex Legends,100-300h,Systems,89,16,0.1797752808988764,17.97752808988764,4
-Apex Legends,300-1000h,Systems,115,26,0.22608695652173913,22.608695652173914,5
-Apex Legends,1000h+,Systems,107,32,0.29906542056074764,29.906542056074763,6
-Apex Legends,0-10h,Technical,50,2,0.04,4.0,1
-Apex Legends,10-50h,Technical,64,4,0.0625,6.25,2
-Apex Legends,50-100h,Technical,46,6,0.13043478260869565,13.043478260869565,3
-Apex Legends,100-300h,Technical,89,14,0.15730337078651685,15.730337078651685,4
-Apex Legends,300-1000h,Technical,115,17,0.14782608695652175,14.782608695652174,5
-Apex Legends,1000h+,Technical,107,23,0.21495327102803738,21.49532710280374,6
-Apex Legends,0-10h,Trust_Fairness,50,11,0.22,22.0,1
-Apex Legends,10-50h,Trust_Fairness,64,11,0.171875,17.1875,2
-Apex Legends,50-100h,Trust_Fairness,46,13,0.2826086956521739,28.26086956521739,3
-Apex Legends,100-300h,Trust_Fairness,89,16,0.1797752808988764,17.97752808988764,4
-Apex Legends,300-1000h,Trust_Fairness,115,36,0.3130434782608696,31.30434782608696,5
-Apex Legends,1000h+,Trust_Fairness,107,32,0.29906542056074764,29.906542056074763,6
+game,playtime_group,sort_order,playtime_sort,theme,theme_display,negative_reviews,theme_mentions,mention_rate,mention_rate_pct,negative_review_count,theme_negative_count
+Apex Legends,0-10h,1,1,Onboarding,Onboarding,63,1,0.015873015873015872,1.5873015873015872,63,1
+Apex Legends,0-10h,1,1,Technical,Technical,63,0,0.0,0.0,63,0
+Apex Legends,0-10h,1,1,Systems,Systems,63,4,0.06349206349206349,6.349206349206349,63,4
+Apex Legends,0-10h,1,1,Economy_Content,Economy / Content,63,0,0.0,0.0,63,0
+Apex Legends,0-10h,1,1,Trust_Fairness,Trust / Fairness,63,4,0.06349206349206349,6.349206349206349,63,4
+Apex Legends,10-50h,2,2,Onboarding,Onboarding,60,1,0.016666666666666666,1.6666666666666667,60,1
+Apex Legends,10-50h,2,2,Technical,Technical,60,4,0.06666666666666667,6.666666666666667,60,4
+Apex Legends,10-50h,2,2,Systems,Systems,60,7,0.11666666666666667,11.666666666666666,60,7
+Apex Legends,10-50h,2,2,Economy_Content,Economy / Content,60,1,0.016666666666666666,1.6666666666666667,60,1
+Apex Legends,10-50h,2,2,Trust_Fairness,Trust / Fairness,60,3,0.05,5.0,60,3
+Apex Legends,50-100h,3,3,Onboarding,Onboarding,47,0,0.0,0.0,47,0
+Apex Legends,50-100h,3,3,Technical,Technical,47,7,0.14893617021276595,14.893617021276595,47,7
+Apex Legends,50-100h,3,3,Systems,Systems,47,4,0.0851063829787234,8.51063829787234,47,4
+Apex Legends,50-100h,3,3,Economy_Content,Economy / Content,47,3,0.06382978723404255,6.382978723404255,47,3
+Apex Legends,50-100h,3,3,Trust_Fairness,Trust / Fairness,47,6,0.1276595744680851,12.76595744680851,47,6
+Apex Legends,100-300h,4,4,Onboarding,Onboarding,86,1,0.011627906976744186,1.1627906976744187,86,1
+Apex Legends,100-300h,4,4,Technical,Technical,86,12,0.13953488372093023,13.953488372093023,86,12
+Apex Legends,100-300h,4,4,Systems,Systems,86,10,0.11627906976744186,11.627906976744185,86,10
+Apex Legends,100-300h,4,4,Economy_Content,Economy / Content,86,3,0.03488372093023256,3.488372093023256,86,3
+Apex Legends,100-300h,4,4,Trust_Fairness,Trust / Fairness,86,11,0.12790697674418605,12.790697674418606,86,11
+Apex Legends,300-1000h,5,5,Onboarding,Onboarding,112,3,0.026785714285714284,2.6785714285714284,112,3
+Apex Legends,300-1000h,5,5,Technical,Technical,112,15,0.13392857142857142,13.392857142857142,112,15
+Apex Legends,300-1000h,5,5,Systems,Systems,112,16,0.14285714285714285,14.285714285714285,112,16
+Apex Legends,300-1000h,5,5,Economy_Content,Economy / Content,112,12,0.10714285714285714,10.714285714285714,112,12
+Apex Legends,300-1000h,5,5,Trust_Fairness,Trust / Fairness,112,21,0.1875,18.75,112,21
+Apex Legends,1000h+,6,6,Onboarding,Onboarding,108,0,0.0,0.0,108,0
+Apex Legends,1000h+,6,6,Technical,Technical,108,20,0.18518518518518517,18.51851851851852,108,20
+Apex Legends,1000h+,6,6,Systems,Systems,108,13,0.12037037037037036,12.037037037037036,108,13
+Apex Legends,1000h+,6,6,Economy_Content,Economy / Content,108,6,0.05555555555555555,5.555555555555555,108,6
+Apex Legends,1000h+,6,6,Trust_Fairness,Trust / Fairness,108,21,0.19444444444444445,19.444444444444446,108,21

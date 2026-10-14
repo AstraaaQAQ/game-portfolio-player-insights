@@ -1,6 +1,6 @@
-﻿game,theme,theme_display,peak_stage,peak_rate_pct,average_rate_pct,active_stage_count,pattern
-Path of Exile,Onboarding_Complexity,Onboarding / Complexity,50-100h,26.67,14.9,4,Persistent Pain Point
-Path of Exile,Server_League_Technical,Server / League / Technical,1000h+,41.67,27.24,6,Persistent / Veteran-Heavy
-Path of Exile,Trade_Loot_UI,Trade / Loot / UI,1000h+,18.52,13.08,5,Persistent / Veteran-Heavy
-Path of Exile,Build_Endgame_Depth,Build / Endgame Depth,50-100h,33.33,23.9,6,Persistent Pain Point
-Path of Exile,Monetisation_Content,Monetisation / Content,100-300h,25.0,11.88,3,Persistent Pain Point
+game,theme,theme_display,peak_stage,peak_rate_pct,average_rate_pct,overall_rate_pct,negative_reviews,theme_mentions,active_stage_count,pattern
+Path of Exile,Onboarding_Complexity,Onboarding / Complexity,50-100h,26.666666666666668,11.934848013279385,8.984375,256,23,3,Descriptive mention pattern; inspect denominators
+Path of Exile,Server_League_Technical,Server / League / Technical,1000h+,40.74074074074074,22.86544247328561,29.296875,256,75,5,Descriptive mention pattern; inspect denominators
+Path of Exile,Trade_Loot_UI,Trade / Loot / UI,50-100h,13.333333333333334,9.345627139744787,9.765625,256,25,3,Descriptive mention pattern; inspect denominators
+Path of Exile,Build_Endgame_Depth,Build / Endgame / Depth,50-100h,26.666666666666668,14.818964622886192,13.28125,256,34,5,Descriptive mention pattern; inspect denominators
+Path of Exile,Monetisation_Content,Monetisation / Content,100-300h,14.285714285714285,10.13149704326175,9.765625,256,25,3,Descriptive mention pattern; inspect denominators

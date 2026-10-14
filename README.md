@@ -1,83 +1,69 @@
-# Game Portfolio: Player Insights and Narrative Design
+# Game Portfolio - Yuxuan Chi (Astra)
 
-This repository contains selected public-facing materials from my game portfolio. It combines player sentiment analysis, Power BI dashboard walkthroughs, playable Twine prototypes, and branching narrative design documentation.
+Player research, commercial interpretation and branching narrative prototypes.
 
-## Projects
+## Start here
 
-### 1. Steam Review Diagnostics by Playtime Stage
+| Project | Open the finished work | My contribution |
+| --- | --- | --- |
+| Steam review diagnostics | [Read the report](dashboards/Steam%20Review%20Diagnostics%20by%20Playtime%20Stage.pdf) | Compared recommendation rates and theme mentions across playtime groups; documented product questions and source revisions. |
+| Narrative and recommendation rates | [Read the report](dashboards/Narrative%20as%20a%20Satisfaction%20Buffer.pdf) | Analysed 15,000 reviews, compared narrative mention groups and developed hypotheses to test. |
+| The Mine and The Moon | **[Play The Mine](https://astraaaqaq.itch.io/the-mine)** / **[Play The Moon](https://astraaaqaq.itch.io/the-moon)** | Adapted original fiction into two Twine prototypes with branching choices, hidden variables and documented consequences. |
 
-Steam review analysis of Apex Legends, Icarus, and Path of Exile, focused on how public player feedback changes across playtime stages and what keeps players attached despite friction. This case highlights early friction, entry into system depth, later-stage trust concerns, and the difference between attachment drivers and friction signals.
+| Case 1 - recommendation rates | Case 2 - narrative association |
+| --- | --- |
+| [![Case 1 preview](dashboards/previews/case1.png)](dashboards/Steam%20Review%20Diagnostics%20by%20Playtime%20Stage.pdf) | [![Case 2 preview](dashboards/previews/case2.png)](dashboards/Narrative%20as%20a%20Satisfaction%20Buffer.pdf) |
 
-Key questions:
+[Project goals, scope and delivery decisions](docs/project-delivery.md) · [Methods and data corrections](docs/data-audit.md) · [Notion portfolio](https://app.notion.com/p/3536abdd1976809298f4e24d30c3a2fa)
 
-> Where does negative sentiment appear by playtime stage?
->
-> Which complaint themes persist or intensify over time?
->
-> What keeps stayed-positive players attached despite friction?
+## 1. Steam Review Diagnostics by Playtime Stage
 
-Main outputs:
+**Question:** How do recommendation rates and theme mentions differ between reviewers with different amounts of cumulative playtime?
 
-- Power BI PDF walkthrough: `dashboards/Steam Review Diagnostics by Playtime Stage.pdf`
-- Python notebooks: `notebooks/*retention_analysis.ipynb`
-- Aggregated playtime-stage, theme, and attachment/friction tables: `data/lifecycle_risk_map_pct.csv`, `data/*_theme_by_playtime.csv`, `data/*_theme_pattern_summary.csv`, `data/*_attachment_vs_friction_signals.csv`
+The frozen cohorts contain 1,393 Apex Legends, 1,445 Icarus and 1,496 Path of Exile reviews. The analysis compares recommendation rates, themes in negative reviews and theme mentions in 50h+ positive versus negative reviews. These are reviewer-group comparisons, not measurements of retention or churn.
 
-### 2. Narrative as a Satisfaction Buffer
+- [Full report](dashboards/Steam%20Review%20Diagnostics%20by%20Playtime%20Stage.pdf)
+- [Counts and rates](data/lifecycle_risk_map_pct.csv)
+- [Method, dictionaries and limitations](docs/case1-method.md)
+- [Rebuild script](scripts/rebuild_case1_assets.py) and [source manifest](data/case1_provenance.json)
 
-Steam review analysis of God of War, Red Dead Redemption 2, and The Witcher 3, focused on whether narrative-mentioning reviews show a higher positive-rate baseline and whether narrative assets still appear in positive reviews that also mention gameplay or mechanical friction.
+## 2. Narrative as a Satisfaction Buffer
 
-Key questions:
+**Question:** Are narrative mentions associated with higher positive recommendation rates, and how does the association differ by game and playtime group?
 
-> What is the positive-rate gap between narrative and non-narrative reviews?
->
-> Among reviews that mention gameplay flaws, which narrative assets still appear in positive recommendations?
+The study uses 5,000 eligible English reviews each for God of War, RDR2 and The Witcher 3. Narrative mentions were associated with higher positive recommendation rates. "Satisfaction buffer" describes the hypothesis being explored; the data does not establish retention, re-engagement or a causal narrative effect.
 
-Terminology:
+- [Full report](dashboards/Narrative%20as%20a%20Satisfaction%20Buffer.pdf)
+- [Narrative versus non-narrative rates](data/narrative_vs_nonnarrative.csv)
+- [Playtime comparisons with subgroup counts](data/narrative_lift_by_playtime_stable.csv)
+- [Co-occurrence comparison](data/compensation_flaw_wide.csv)
+- [Rebuild script](scripts/rebuild_case2_narrative_assets.py) and [source manifest](data/case2_provenance.json)
 
-- Narrative lift: the positive-rate gap between narrative-mentioning reviews and non-narrative reviews.
-- Compensation signal: among flaw-mentioning reviews, the narrative satisfaction drivers that still appear in positive reviews.
+## 3. The Mine and The Moon
 
-Main outputs:
+The Mine connects earlier choices to a final appeal through Leverage, Spark and Solidarity. The Moon explores possession, release and rebellion through Mara's choices.
 
-- Power BI PDF walkthrough: `dashboards/Narrative as a Satisfaction Buffer.pdf`
-- Python notebooks and rebuild script: `notebooks/*sentiment_analysis.ipynb`, `scripts/rebuild_case2_narrative_assets.py`
-- Aggregated narrative lift tables: `data/narrative_vs_nonnarrative.csv`, `data/narrative_lift_by_playtime_stable.csv`
-- Compensation signal tables: `data/compensation_flaw_combined.csv`, `data/compensation_flaw_wide.csv`
+- **[Play The Mine](https://astraaaqaq.itch.io/the-mine)** / **[Play The Moon](https://astraaaqaq.itch.io/the-moon)**
+- [Main-route flowchart](narrative/main-route-flowchart.png) / [Side-route flowchart](narrative/side-route-flowchart.png)
+- [Design text](narrative/demo-text.md) / [Artifact notes](narrative/README.md)
 
-### 3. Narrative Design Demo: The Mine and The Moon
+## Reproduce and inspect
 
-A branching narrative design demo adapted from my original fiction and worldbuilding project. It explores choice, class conflict, evidence, resistance, and love under unequal power. The main route asks whether truth becomes political leverage, public ignition, or solidarity with the people most harmed by the system. The side route explores love as protection, release, or rebellion through Mara and Elian's relationship.
-
-Main outputs:
-
-- Main route playable prototype: [The Mine - Main Route Twine Prototype](https://astraaaqaq.itch.io/the-mine)
-- Side route playable prototype: [The Moon - Side Route Twine Prototype](https://astraaaqaq.itch.io/the-moon)
-- Main route flowchart: `narrative/main-route-flowchart.png`
-- Side route flowchart: `narrative/side-route-flowchart.png`
-- Full demo text: `narrative/demo-text.md`
-- Narrative artifact notes: `narrative/README.md`
-
-## Analysis Pipeline
-
-Steam reviews -> cleaning and filtering -> sentiment proxy from recommendation labels -> playtime grouping or theme tagging -> aggregated evidence tables -> Power BI dashboard -> portfolio insight writing.
-
-## Reproducibility
-
-Install the lightweight analysis dependencies with:
+Install dependencies with `pip install -r requirements.txt`. Public aggregates can be checked without private review text:
 
 ```bash
-pip install -r requirements.txt
+python scripts/validate_portfolio.py
+python -m unittest discover -s tests
 ```
 
-Raw review-level datasets are excluded from this public repository. The repository includes code, aggregated tables, dashboard PDFs, playable prototype links, and selected design artifacts so that the portfolio argument can be reviewed without republishing large volumes of user-generated review text.
+Frozen review files are private and excluded from Git. With those files available locally:
 
-Full interactive Power BI dashboards are available upon request.
+```bash
+python scripts/rebuild_case1_assets.py --input-dir private_data/case1
+python scripts/rebuild_case2_narrative_assets.py --reuse-private --input-dir private_data
+python scripts/render_reports.py
+```
 
-## Tools
+The [six notebooks](notebooks/README.md) preserve historical exploration and have method notes and no saved outputs. Their live collection cells do not reproduce the frozen snapshot.
 
-- Python
-- Power BI
-- Steam review data
-- Keyword and phrase-based theme tagging
-- Twine
-- Notion portfolio writing
+Current PDFs are static walkthroughs rebuilt from reconciled CSVs. Original Power BI files remain historical sources and require a separate native refresh to match this revision. See [report and Power BI notes](dashboards/README.md).

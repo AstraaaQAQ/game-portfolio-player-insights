@@ -1,0 +1,31 @@
+{
+  "version": "case1-frozen-v2",
+  "audit_date": "2026-10-14",
+  "playtime_basis": "playtime_forever / 60 at collection",
+  "intervals": "[0,10), [10,50), [50,100), [100,300), [300,1000), [1000,infinity)",
+  "source": "Review tables recovered from the original Power BI snapshot; raw text stays private.",
+  "theme_dictionary": "scripts/rebuild_case1_assets.py (version 2)",
+  "games": {
+    "Apex Legends": {
+      "input_file": "apex_reviews.csv",
+      "sha256": "280d39595b8e9680188950908365a4ebd5e33946447ed940d3932c517e8583ff",
+      "review_count": 1393,
+      "negative_count": 476,
+      "positive_50h_count": 628
+    },
+    "Icarus": {
+      "input_file": "icarus_reviews.csv",
+      "sha256": "4f71307afd587acab1697401a738207851b1113cc293ba1c0077f77ea972648b",
+      "review_count": 1445,
+      "negative_count": 288,
+      "positive_50h_count": 899
+    },
+    "Path of Exile": {
+      "input_file": "poe_reviews.csv",
+      "sha256": "5cea613be3b47c7708aecd549fe695b1434e4ec1b4962c55ac25c2ea310cf328",
+      "review_count": 1496,
+      "negative_count": 256,
+      "positive_50h_count": 1081
+    }
+  }
+}

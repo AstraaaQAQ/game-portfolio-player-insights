@@ -1,0 +1,18 @@
+{
+  "audit_date": "2026-10-14",
+  "sample_size_per_game": 5000,
+  "playtime_basis": "cumulative playtime at collection",
+  "minimum_playtime_hours": 10,
+  "minimum_english_words": 20,
+  "inputs": {
+    "god_of_war_reviews_english_5000_10h_20words.csv": {
+      "sha256": "3c469e2fe80f34fe45f31864e36574b576d520f78df346c4deaa2896db3b969e"
+    },
+    "rdr2_reviews_english_5000_10h_20words.csv": {
+      "sha256": "f63d0ae0fb35f157028d5ad945ac8328cf0fbf3f17eb22a5f7be25a3d4fec67f"
+    },
+    "witcher3_reviews_english_5000_10h_20words.csv": {
+      "sha256": "cd4f637fa9ec50a92f46bc04760fac29f72ff177189fe7b847a64163bd2c62bd"
+    }
+  }
+}
