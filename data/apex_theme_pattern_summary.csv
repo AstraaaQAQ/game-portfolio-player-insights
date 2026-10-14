@@ -1,6 +1,6 @@
-game,theme,peak_stage,peak_rate_pct,average_rate_pct,active_stage_count,pattern
-Apex Legends,Onboarding,10-50h,6.25,3.426898759220621,0,Low / Diffuse Signal
-Apex Legends,Technical,1000h+,21.49532710280374,12.55029185632953,4,Persistent / Veteran-Heavy
-Apex Legends,Systems,1000h+,29.906542056074763,23.494718212732867,6,Persistent / Veteran-Heavy
-Apex Legends,Economy_Content,300-1000h,17.391304347826086,10.700502701697037,4,Persistent / Veteran-Heavy
-Apex Legends,Trust_Fairness,300-1000h,31.30434782608696,24.439464589544457,6,Persistent / Veteran-Heavy
+game,theme,theme_display,peak_stage,peak_rate_pct,average_rate_pct,overall_rate_pct,negative_reviews,theme_mentions,active_stage_count,pattern
+Apex Legends,Onboarding,Onboarding,300-1000h,2.6785714285714284,1.1825550633690167,1.2605042016806722,476,6,0,Descriptive mention pattern; inspect denominators
+Apex Legends,Technical,Technical,1000h+,18.51851851851852,11.237524620235325,12.184873949579831,476,58,4,Descriptive mention pattern; inspect denominators
+Apex Legends,Systems,Systems,300-1000h,14.285714285714285,10.746194935540144,11.344537815126051,476,54,4,Descriptive mention pattern; inspect denominators
+Apex Legends,Economy_Content,Economy / Content,300-1000h,10.714285714285714,4.634643125489241,5.2521008403361344,476,25,1,Descriptive mention pattern; inspect denominators
+Apex Legends,Trust_Fairness,Trust / Fairness,1000h+,19.444444444444446,12.51671765247965,13.865546218487395,476,66,4,Descriptive mention pattern; inspect denominators

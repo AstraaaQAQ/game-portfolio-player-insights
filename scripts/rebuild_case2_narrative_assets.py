@@ -315,10 +315,15 @@ def collect_game_reviews(game: str, appid: int, slug: str) -> List[dict]:
     return rows
 
 
-def pct(numerator: int, denominator: int) -> float:
+def pct(numerator: int, denominator: int) -> float | None:
     if denominator == 0:
-        return 0.0
+        return None
     return round(numerator / denominator * 100, 2)
+
+
+def percentage_point_gap(left: float | None, right: float | None) -> float | None:
+    """An absent comparison group is unavailable, rather than a zero rate."""
+    return round(left - right, 2) if left is not None and right is not None else None
 
 
 def playtime_group(hours: float) -> str:
@@ -423,8 +428,8 @@ def build_outputs(all_rows: List[dict]) -> None:
                     "non_narrative_reviews": len(group_non_narrative_rows),
                     "narrative_positive_rate": narrative_positive_rate,
                     "non_narrative_positive_rate": non_narrative_positive_rate,
-                    "narrative_lift_pp": round(
-                        narrative_positive_rate - non_narrative_positive_rate, 2
+                    "narrative_lift_pp": percentage_point_gap(
+                        narrative_positive_rate, non_narrative_positive_rate
                     ),
                 }
             )
@@ -475,7 +480,7 @@ def build_outputs(all_rows: List[dict]) -> None:
                     "category": category,
                     "positive_flaw_pct": pos_pct,
                     "negative_flaw_pct": neg_pct,
-                    "compensation_gap": round(pos_pct - neg_pct, 2),
+                    "compensation_gap": percentage_point_gap(pos_pct, neg_pct),
                 }
             )
 
@@ -484,6 +489,10 @@ def build_outputs(all_rows: List[dict]) -> None:
     write_csv(DATA_DIR / "narrative_overall_combined_1.csv", overall)
     write_csv(DATA_DIR / "narrative_vs_nonnarrative.csv", narrative_vs_non)
     write_csv(DATA_DIR / "narrative_lift_by_playtime.csv", narrative_lift_by_playtime)
+    write_csv(
+        DATA_DIR / "narrative_lift_by_playtime_stable.csv",
+        [row for row in narrative_lift_by_playtime if row["playtime_sort"] <= 3],
+    )
     write_csv(DATA_DIR / "compensation_flaw_combined.csv", compensation_long)
     write_csv(DATA_DIR / "compensation_flaw_wide.csv", compensation_wide)
 
@@ -506,17 +515,29 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Rebuild aggregate tables from existing private_data review files without calling Steam.",
     )
+    parser.add_argument("--input-dir", type=Path, default=PRIVATE_DIR)
+    parser.add_argument("--output-dir", type=Path, default=DATA_DIR)
     return parser.parse_args()
 
 
 def read_csv(path: Path) -> List[dict]:
     with path.open("r", newline="", encoding="utf-8-sig") as handle:
         rows = list(csv.DictReader(handle))
+    if not rows:
+        raise ValueError(f"Empty review snapshot: {path.name}")
+    ids = [row["recommendation_id"] for row in rows]
+    if any(not value for value in ids) or len(ids) != len(set(ids)):
+        raise ValueError(f"Missing or duplicate recommendation IDs: {path.name}")
     for row in rows:
         row["appid"] = int(row["appid"])
-        row["voted_up"] = str(row["voted_up"]).lower() == "true"
+        label = str(row["voted_up"]).strip().lower()
+        if label not in {"true", "false"}:
+            raise ValueError(f"Invalid recommendation label in {path.name}")
+        row["voted_up"] = label == "true"
         row["playtime_hours"] = float(row["playtime_hours"])
         row["word_count"] = int(row["word_count"])
+        if row["playtime_hours"] < MIN_PLAYTIME_HOURS or word_count(row["review_text"]) < MIN_WORDS:
+            raise ValueError(f"Review does not meet declared filters in {path.name}")
         row["has_narrative_signal"] = str(row["has_narrative_signal"]).lower() == "true"
         row["has_gameplay_flaw"] = str(row["has_gameplay_flaw"]).lower() == "true"
         for category in NARRATIVE_CATEGORIES:
@@ -526,9 +547,19 @@ def read_csv(path: Path) -> List[dict]:
 
 
 def main() -> None:
+    global MAX_PAGES_PER_GAME, PRIVATE_DIR, DATA_DIR
     args = parse_args()
-    global MAX_PAGES_PER_GAME
     MAX_PAGES_PER_GAME = args.max_pages
+    PRIVATE_DIR, DATA_DIR = args.input_dir, args.output_dir
+
+    if args.reuse_private:
+        missing = [
+            f"{info['slug']}_reviews_english_5000_10h_20words.csv"
+            for info in GAMES
+            if not (PRIVATE_DIR / f"{info['slug']}_reviews_english_5000_10h_20words.csv").exists()
+        ]
+        if missing:
+            raise FileNotFoundError("Offline rebuild requires all frozen inputs: " + ", ".join(missing))
 
     PRIVATE_DIR.mkdir(parents=True, exist_ok=True)
     DATA_DIR.mkdir(parents=True, exist_ok=True)

@@ -1,10 +1,10 @@
-﻿game,theme,stayed_positive_reviews,stayed_positive_mentions,stayed_positive_mention_rate_pct,negative_reviews,negative_mentions,negative_mention_rate_pct,total_mentions,positive_share,signal_type
-Apex Legends,Battle Royale Loop,645,38,5.89,471,41,8.7,79,0.481,Divisive but Important
-Apex Legends,Matchmaking / Ranked Pressure,645,30,4.65,471,45,9.55,75,0.4,Divisive but Important
-Apex Legends,Movement / Gunplay,645,43,6.67,471,31,6.58,74,0.581,Divisive but Important
-Apex Legends,Friends / Squad Play,645,31,4.81,471,32,6.79,63,0.492,Divisive but Important
-Apex Legends,Developer Trust,645,22,3.41,471,46,9.77,68,0.324,Friction Driver
-Apex Legends,Cheaters / Fairness,645,10,1.55,471,52,11.04,62,0.161,Friction Driver
-Apex Legends,Servers / Stability,645,12,1.86,471,43,9.13,55,0.218,Friction Driver
-Apex Legends,Monetisation,645,14,2.17,471,24,5.1,38,0.368,Friction Driver
-Apex Legends,Skill / Mastery,645,17,2.64,471,14,2.97,31,0.548,Low Signal
+game,theme,stayed_positive_reviews,stayed_positive_mentions,stayed_positive_mention_rate_pct,negative_reviews,negative_mentions,negative_mention_rate_pct,total_mentions,positive_share,signal_type
+Apex Legends,Battle Royale Loop,628,44,7.006369426751593,476,16,3.361344537815126,60,0.7333333333333333,Higher in 50h+ positive reviews
+Apex Legends,Matchmaking / Ranked Pressure,628,28,4.45859872611465,476,49,10.294117647058822,77,0.36363636363636365,Higher in negative reviews
+Apex Legends,Movement / Gunplay,628,36,5.7324840764331215,476,23,4.831932773109244,59,0.6101694915254238,Higher in 50h+ positive reviews
+Apex Legends,Friends / Squad Play,628,23,3.662420382165605,476,19,3.9915966386554618,42,0.5476190476190477,Higher in negative reviews
+Apex Legends,Developer Trust,628,11,1.7515923566878981,476,16,3.361344537815126,27,0.4074074074074074,Higher in negative reviews
+Apex Legends,Cheaters / Fairness,628,12,1.910828025477707,476,54,11.344537815126051,66,0.18181818181818182,Higher in negative reviews
+Apex Legends,Servers / Stability,628,9,1.4331210191082804,476,35,7.352941176470589,44,0.20454545454545456,Higher in negative reviews
+Apex Legends,Monetisation,628,12,1.910828025477707,476,22,4.621848739495799,34,0.35294117647058826,Higher in negative reviews
+Apex Legends,Skill / Mastery,628,12,1.910828025477707,476,14,2.941176470588235,26,0.46153846153846156,Higher in negative reviews

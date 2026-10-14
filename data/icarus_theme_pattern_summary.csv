@@ -1,6 +1,6 @@
-game,theme,theme_display,peak_stage,peak_rate_pct,average_rate_pct,active_stage_count,pattern
-Icarus,Onboarding,Onboarding,1000h+,33.33,17.68,5,Persistent / Veteran-Heavy
-Icarus,Technical,Technical Stability,300-1000h,58.82,34.23,6,Persistent / Veteran-Heavy
-Icarus,Survival_Systems,Survival Systems,1000h+,66.67,52.0,6,Persistent / Veteran-Heavy
-Icarus,Economy_Content,Economy / Content,1000h+,100.0,54.39,6,Persistent / Veteran-Heavy
-Icarus,Value_DLC,DLC / Value Trust,50-100h,50.0,36.64,6,Persistent Pain Point
+game,theme,theme_display,peak_stage,peak_rate_pct,average_rate_pct,overall_rate_pct,negative_reviews,theme_mentions,active_stage_count,pattern
+Icarus,Onboarding,Onboarding,0-10h,5.633802816901409,1.6227278199109187,2.083333333333333,288,6,0,Descriptive mention pattern; inspect denominators
+Icarus,Technical,Technical,1000h+,66.66666666666666,33.29159515137015,24.65277777777778,288,71,6,Descriptive mention pattern; inspect denominators
+Icarus,Survival_Systems,Survival / Systems,50-100h,49.056603773584904,38.01545967016779,37.5,288,108,6,Descriptive mention pattern; inspect denominators
+Icarus,Economy_Content,Economy / Content,1000h+,66.66666666666666,41.18457217890294,35.76388888888889,288,103,6,Descriptive mention pattern; inspect denominators
+Icarus,Value_DLC,Value / DLC,300-1000h,51.28205128205128,40.14644010923575,36.80555555555556,288,106,6,Descriptive mention pattern; inspect denominators

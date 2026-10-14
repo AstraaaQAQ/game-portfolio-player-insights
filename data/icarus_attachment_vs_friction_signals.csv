@@ -1,10 +1,10 @@
-﻿game,theme,stayed_positive_reviews,stayed_positive_mentions,stayed_positive_mention_rate_pct,negative_reviews,negative_mentions,negative_mention_rate_pct,total_mentions,positive_share,signal_type
-Icarus,Survival Fantasy,899,293,32.59,288,61,21.18,354,0.828,Divisive but Important
-Icarus,Base Building,899,196,21.8,288,77,26.74,273,0.718,Divisive but Important
-Icarus,DLC / Value,899,145,16.13,288,102,35.42,247,0.587,Divisive but Important
-Icarus,Mission / Content Structure,899,154,17.13,288,65,22.57,219,0.703,Divisive but Important
-Icarus,Open World / Exploration,899,140,15.57,288,58,20.14,198,0.707,Divisive but Important
-Icarus,Crafting / Progression,899,142,15.8,288,50,17.36,192,0.74,Divisive but Important
-Icarus,Friends / Co-op,899,121,13.46,288,30,10.42,151,0.801,Divisive but Important
-Icarus,Technical Stability,899,77,8.57,288,62,21.53,139,0.554,Divisive but Important
-Icarus,Grind / Pacing,899,66,7.34,288,48,16.67,114,0.579,Divisive but Important
+game,theme,stayed_positive_reviews,stayed_positive_mentions,stayed_positive_mention_rate_pct,negative_reviews,negative_mentions,negative_mention_rate_pct,total_mentions,positive_share,signal_type
+Icarus,Survival Fantasy,899,259,28.809788654060064,288,38,13.194444444444445,297,0.8720538720538721,Higher in 50h+ positive reviews
+Icarus,Base Building,899,169,18.798665183537263,288,69,23.958333333333336,238,0.7100840336134454,Higher in negative reviews
+Icarus,DLC / Value,899,135,15.016685205784205,288,90,31.25,225,0.6,Higher in negative reviews
+Icarus,Mission / Content Structure,899,153,17.018909899888765,288,64,22.22222222222222,217,0.7050691244239631,Higher in negative reviews
+Icarus,Open World / Exploration,899,94,10.456062291434929,288,22,7.638888888888889,116,0.8103448275862069,Higher in 50h+ positive reviews
+Icarus,Crafting / Progression,899,124,13.793103448275861,288,39,13.541666666666666,163,0.7607361963190185,Higher in 50h+ positive reviews
+Icarus,Friends / Co-op,899,125,13.904338153503893,288,31,10.76388888888889,156,0.8012820512820513,Higher in 50h+ positive reviews
+Icarus,Technical Stability,899,70,7.786429365962181,288,60,20.833333333333336,130,0.5384615384615384,Higher in negative reviews
+Icarus,Grind / Pacing,899,70,7.786429365962181,288,41,14.23611111111111,111,0.6306306306306306,Higher in negative reviews

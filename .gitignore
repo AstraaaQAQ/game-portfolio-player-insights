@@ -1,2 +1,4 @@
 private_data/
 *.tmp
+__pycache__/
+.mplconfig/
